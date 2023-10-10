@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Great+Vibes&family=Open+Sans:wght@300&family=Poppins:wght@600&family=Roboto:wght@100;300&family=Shadows+Into+Light&display=swap');
+/*Fale Conosco*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(247, 184, 12);
+  }
+  
+  form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 30rem;
+    padding: 10px 45px;
+    background: orange;
+  }
+  
+  label, input, textarea, button {
+    display: flex;
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    font: inherit;
+    padding: 16px;
+    font-weight: 700;
+  }
+  
+  input, textarea {
+    background:rgb(252, 215, 112);
+    margin-bottom: 20px;
+    padding: 15px;
+    color: rgb(0, 0, 0); 
+    border-radius: 16px;
+    font-size: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:hover, input:focus, textarea:hover, textarea:focus {
+    outline: none;
+    border-color: #f1f51d;
+    box-shadow: 0 0 0 0.3125rem #828536;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #000000;
+  }
+  
+  textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background: transparent;
+    cursor: pointer;
+    transition: all 1s;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  button:hover, button:focus {
+    outline: none;
+    background: rgb(252, 215, 112);
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    background: #b8d511;
+  }
+
+  /*estilização da parte do JS*/
+  
+  .success, .error {
+    text-align: center;
+  }
+  
+  .success {
+    color: rgb(0, 0, 0);
+  }
+  
+  .error {
+    color: rgb(168, 28, 3);
+  }
+
+  h2{
+    font-size: 2.5rem;
+    margin: 2rem;
+    max-width: 600px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    border-bottom: 20px;
+  }
